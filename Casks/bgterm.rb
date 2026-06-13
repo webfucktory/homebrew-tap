@@ -1,6 +1,6 @@
 cask "bgterm" do
   version "0.1.0"
-  sha256 "5d97a550fabb31f050f760259c7b54960e024b3b4f2b8b28d79bb580e10b84fc"
+  sha256 "dafa91bf26d3a409688abbaddd6d3e440dffe2e44ed373fe4534ccab0bd8cbac"
 
   url "https://github.com/webfucktory/bgterm/releases/download/v#{version}/bgterm-v#{version}.zip"
   name "bgterm"
@@ -16,6 +16,6 @@ cask "bgterm" do
   end
 
   zap trash: [
-    "~/Library/Preferences/com.webfktory.bgterm.plist",
+    "~/Library/Preferences/com.webfucktory.bgterm.plist",
   ]
 end
